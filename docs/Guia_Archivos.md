@@ -161,3 +161,4 @@ Indica que archivos y carpetas no deben incluirse en Git, como logs, `node_modul
 4. `main.ts` inserta la interfaz dentro de `#app`.
 5. `setupCounter` conecta el boton y actualiza su valor cuando recibe clics.
 6. Vite transforma y sirve los modulos durante el desarrollo o genera `dist/` para produccion.
+
