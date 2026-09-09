@@ -1,0 +1,73 @@
+import type { Gif } from "../models/gif.interface";
+
+const MEDIA_URL = "https://media.giphy.com/media";
+export const gifs: Gif[] = [
+  {
+    id: "cat-01",
+    title: "Gato programando",
+    url: `${MEDIA_URL}/JIX9t2j0ZTN9S/giphy.gif`,
+    username: "gifinder",
+    description: "Un gato concentrado frente a una computadora, como si estuviera programando.",
+    tags: ["gato", "programación", "computadora"],
+    rating: "g",
+  },
+  {
+    id: "celebration-01",
+    title: "Celebración del equipo",
+    url: `${MEDIA_URL}/g9582DNuQppxC/giphy.gif`,
+    tags: ["equipo", "éxito", "celebración"],
+    rating: "g",
+  },
+  {
+    id: "coding-01",
+    title: "Código en progreso",
+    url: `${MEDIA_URL}/13HgwGsXF0aiGY/giphy.gif`,
+    username: "developer",
+    description: "Un desarrollador escribiendo código en su teclado, mostrando el proceso de desarrollo.",
+    tags: ["código", "desarrollo", "teclado"],
+    rating: "pg",
+  },
+  {
+    id: "idea-01",
+    title: "Nueva idea",
+    url: `${MEDIA_URL}/l0HlRnAWXxn0MhKLK/giphy.gif`,
+    tags: ["idea", "creatividad", "solución"],
+    rating: "g",
+  },
+  {
+    id: "herodreamy-01",
+    title: "Dreamybrine",
+    url: `${MEDIA_URL}/yz7m5pjJGnNfTr1YXJ/giphy.gif`,
+    username: "gifinder",
+    description: "ambatabusssss",
+    tags: ["minecraft", "dreamy ", "ambatukam"],
+    rating: "g",
+  },
+  {
+    id: "angryspeed-01",
+    title: "IshowSpeed Enojado",
+    url: `${MEDIA_URL}/WtkSLISjPARFCVuQd5/giphy.gif`,
+    username: "gifinder",
+    description: "IshowSpeed crashing out",
+    tags: ["IShowSpeed", "crashout", "speed"],
+    rating: "g",
+  },
+  {
+    id: "hussvalley-01",
+    title: "Huss Valley",
+    url: `${MEDIA_URL}/uCXY6aEuIl4aUqUXBl/giphy.gif`,
+    username: "gifinder",
+    description: "Huss valley",
+    tags: ["folk valley", "badminton training", "fitness"],
+    rating: "g",
+  },
+  {
+    id: "hoodirony-01",
+    title: "Hood Irony",
+    url: `${MEDIA_URL}/hfilfTaUfzKt43uFIJ/giphy.gif`,
+    username: "gifinder",
+    description: "V stepped into the crowd",
+    tags: ["hood irony", "like", "water"],
+    rating: "g",
+  },
+];
